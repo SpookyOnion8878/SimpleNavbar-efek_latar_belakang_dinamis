@@ -1,0 +1,30 @@
+.navbar {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  background-color: #333;
+}
+
+.navbar li {
+  position: relative;
+  display: inline-block;
+  font-size: 1.2em;
+  transition: background 0.3s ease-in-out;
+}
+
+.navbar li:hover {
+  background: linear-gradient(135deg, #ff6f61 0%, #de4313 100%);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  display: block;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar li:hover a {
+  color: #fff;
+}
